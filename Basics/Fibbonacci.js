@@ -8,7 +8,7 @@ function Fibonacci(n){
         var a = 0, b = 1, c;
         var  arr = [] 
         for(var i=2; i<=n ; i++){
-            c = a + b;
+            c = a + b
             a = b;
             b = c;
             arr.push(c);
